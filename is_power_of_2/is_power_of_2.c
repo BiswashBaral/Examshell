@@ -6,7 +6,7 @@
 /*   By: biswbara <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/21 02:36:55 by biswbara          #+#    #+#             */
-/*   Updated: 2019/04/21 02:49:49 by biswbara         ###   ########.fr       */
+/*   Updated: 2019/04/21 02:51:44 by biswbara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int is_power_of_2(unsigned int n)
 		return 1;
 	while (n % 2 == 0)
 	{
-		n = n / 2;i
+		n = n / 2;
 		if (n == 1)
 			return 1;
 
