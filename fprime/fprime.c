@@ -42,7 +42,9 @@ int fprime(int n)
 	while(i <= n)
 	{	
 		j = isprime(i);
-		if (j != 0)
+		if (j == 0)
+			i++;
+		else
 		{
 			if( n % j == 0)
 			{
@@ -50,7 +52,6 @@ int fprime(int n)
 				printf("%c", '*');
 			}
 		}
-		i++;
 	}
 	return (0);
 }
